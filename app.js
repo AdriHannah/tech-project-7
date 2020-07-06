@@ -91,6 +91,7 @@ let dailyChart = new Chart(dailyCanvas, {
 const mobileCanvas = document.getElementById("mobile-chart");
 
 const mobileData = {
+    maintainAspectRatio: false,
     labels: ["Desktop", "Tablet", "Phones"],
     datasets: [{
         label: '# of Users',

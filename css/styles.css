@@ -178,7 +178,12 @@ input[type=search] {
     padding-bottom: 15px;
 }
 
+.traffic {
+    width: 100%;
+}
+
 .traffic-header {
+    border: thin solid black;
     display: flex;
     justify-content: space-between;
     padding: 0 26px 0 8px;
@@ -218,6 +223,12 @@ ul li {
 .hr-line {
     border-top: 1px;
     opacity: .5;
+}
+
+.chart-container{
+    position: relative;
+    height: 40vh;
+    width: 80vh;
 }
 
 /* inside of .row-4 */
