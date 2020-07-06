@@ -1,0 +1,289 @@
+body {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+    background-color: rgb(133, 88, 133);
+    display: flex;
+    align-self: center;
+    height: 65px;
+}
+
+.header-right {
+    display: flex;
+    width: 195px;
+    justify-content: space-around;
+}
+
+h1 {
+    font: 20px/40px arial, san-serif;
+    flex: 1;
+    padding-left: 15px;
+    color: white;
+}
+
+h3 {
+    font: 16px/38px arial, san-serif;
+    color: white;
+}
+
+.bell-icon {
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    right: -15px;
+    position: relative;
+    align-self: center;
+}
+
+.notification {
+    background-color: rgb(56, 160, 56);
+    color: white;
+    text-decoration: none;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: -37px;
+    right: -13px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.bell-icon:hover {
+    /* change hover  */
+    /* add transition */
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+.bell-icon:hover>.notification {
+    background: rgb(60, 203, 60);
+    width: 9px;
+    height: 9px;
+    top: -38px;
+    right: -14px;
+}
+
+.profile-picture img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 7px;
+    float: left;
+}
+
+/* NAVIGATION */
+
+.nav img {
+    display: flex;
+    width: 32px;
+    height: 28px;
+    margin: 5px;
+    align-self: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(87, 99, 112);
+}
+
+
+/* inside of .row-1 */
+
+.row-1 { 
+    border: thin solid blue;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(248, 190, 198);
+}
+
+
+.alert {
+    width: 100%;
+    font-family: arial, san-serif;
+    padding: 10px 0;
+    color: white;
+    background: rgb(248, 190, 198);
+}
+
+.alert-banner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 0 10px;
+    border-radius: 7px;
+    background: rgb(173, 95, 95);
+}
+
+.alert-banner-close {
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    float: right;
+    cursor: pointer;
+}
+
+
+/* inside of .main-header */
+
+.headline {
+    font: bold 18px arial, san-serif;
+    align-self: center;
+    padding-left: 12px;
+    margin-right: 12px;
+    color: rgb(47, 56, 56);
+}
+
+.main-header-search {
+    flex: 1;
+    background-color: rgb(247, 207, 213);
+    border-bottom-left-radius: 8px;
+    padding: 10px 5px;
+}
+
+
+input[type=search] {
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+/* inside of .row-2 */
+
+.row-2 {
+    width: 100%;
+    background: rgb(248, 190, 198);
+    padding-bottom: 10px;
+}
+
+.daily {
+    padding-bottom: 15px;
+}
+
+.traffic-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 26px 0 8px;
+}
+
+.traffic-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(47, 56, 56);
+}
+
+ul li {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    color: rgb(47, 56, 56);
+}
+
+/* inside of .row-3 */
+
+.row-3 { 
+    background-color: rgb(248, 190, 198);
+    padding: 15px 0 0;
+}
+
+.row-3 h3 {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 8px;
+    color: rgb(47, 56, 56);
+}
+
+.hr-line {
+    border-top: 1px;
+    opacity: .5;
+}
+
+/* inside of .row-4 */
+
+.row-4 {
+    background-color: lightgreen;
+    padding: 15px 0;
+
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: .5px solid grey;  
+    padding: 20px 25px;
+}
+
+.social-image {
+    background: #7477BF;
+    padding: 18px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+
+.facebook-image {
+    background: #7477BF;
+    padding: 18px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.google-image {
+    background: #7477BF;
+    padding: 20px;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.social-text {
+    font-family: arial, san-serif;
+    font-size: 16px;
+    font-weight: 600; 
+    margin-right: 8em;   
+    color: #7477BF;
+    border: thin solid black;
+
+}
+
+.social-number {
+    font-size: 22px;
+    font-weight: lighter;
+    color: rgb(47, 56, 56);
+}
+
+
+
+/* inside of .row-5 */
+ 
+
+/* MAIN */
+
+.main { 
+    background-color: rgb(141, 140, 140);
+}
