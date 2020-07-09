@@ -206,7 +206,6 @@ input[type=search] {
 }
 
 /* inside of row 2 */
-
 .full-size-chart {
     padding-bottom: 10px;
 }
@@ -234,7 +233,6 @@ ul li {
 }
 
 /* inside of row 3 */
-
 .half-size-charts {
     padding: 15px 0 0;
 }
@@ -257,7 +255,6 @@ ul li {
 }
 
 /* inside of row 4 */
-
 .social-media-info {
     padding-bottom: 20px;
 }
@@ -301,7 +298,6 @@ ul li {
 
 
 /* inside of row 5 */
-
 .members-container {
     display: flex;
     font-size: 13px;
@@ -328,16 +324,19 @@ ul li {
 
 .members-text a {
     color: purple;
-    font-size: 13px;
+    font-size: 12px;
     text-decoration: none;
     display: block;
 }
 
 /* recent activity */
-
 .activity-2 {
-    font-family: arial, san-serif;
-    font-size: 14px;
+     font-family: arial,
+     san-serif;
+     font-size: 14px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
 }
 
 .activity-container {
@@ -345,8 +344,8 @@ ul li {
 }
 
 .activity-text {
+    flex: 1;
     padding: 5px 10px 0 0;
-    margin-left: 10px;
 }
 
 .activity-image {
@@ -357,8 +356,16 @@ ul li {
     font-size: 13px;
     font-weight: 600;
     margin: 0;
-    padding: 5px 0 5px 0;
+    padding: 5px 0 20px 0;
 }
+
+
+.arrow { 
+    font-size: 20px;
+    font-weight: 100; 
+    padding: 0 15px;
+}
+
 
 /* message section*/
 .widget-container {
@@ -384,7 +391,6 @@ ul li {
 }
 
 /* settings section */
-
 .switch-light,
 .switch-ios {
     font-family: Arial, Helvetica, sans-serif;
@@ -398,7 +404,7 @@ strong {
 }
 
 .settings-button {
-    text-align: center;
+    text-align: center; 
 }
 
 .settings-button button {
@@ -407,15 +413,15 @@ strong {
     text-align: center;
     cursor: pointer;
     height: 40px;
-    width: 150px;
-    margin: 20px 10px 60px;
+    width: 120px;
+    margin: 10px 10px 50px;
     padding: 10px;
     border-radius: 5px;
     border: 0;
 }
 
 .form-field {
-    width: 320px;
+    width: 260px;
     align-content: center;
     height: 35px;
     border-radius: 3px;
