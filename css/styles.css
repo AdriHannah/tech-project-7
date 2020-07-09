@@ -3,11 +3,20 @@
     margin: 0;
     padding: 0;
 }
+ 
+::-webkit-scrollbar {
+    display: none;
+}
+ 
+html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
 
-/*TEMPORARY*/
 body {
     height: 100vh;
 }
+
 
 .dash-top,
 .full-size-chart,
@@ -42,20 +51,20 @@ nav {
 }
 
 main {
-    background: white; 
+    background: white;
 }
 
 /*....................................................................*/
 
 header {
-    display: flex; 
+    display: flex;
 }
 
 .header-right {
     display: flex;
     align-self: center;
     width: 195px;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 h1 {
@@ -177,7 +186,7 @@ input[type=search] {
     box-sizing: border-box;
     font: 13px/40px arial, san-serif;
     padding: 10px;
-    color: white; 
+    color: white;
 }
 
 .alert-banner {
@@ -198,10 +207,10 @@ input[type=search] {
 
 /* inside of row 2 */
 
-.full-size-chart { 
+.full-size-chart {
     padding-bottom: 10px;
-} 
- 
+}
+
 .traffic-header {
     display: flex;
     justify-content: space-between;
@@ -222,13 +231,13 @@ ul li {
     font-weight: 600;
     display: inline-block;
     color: rgb(47, 56, 56);
-} 
+}
 
 /* inside of row 3 */
 
 .half-size-charts {
     padding: 15px 0 0;
-} 
+}
 
 .half-size-charts h3,
 .member-info h3,
@@ -245,14 +254,14 @@ ul li {
 .activity-2,
 .message {
     padding-bottom: 15px;
-} 
- 
+}
+
 /* inside of row 4 */
 
- .social-media-info { 
+.social-media-info {
     padding-bottom: 20px;
-} 
- 
+}
+
 .social-1,
 .social-2,
 .social-3 {
@@ -267,7 +276,7 @@ ul li {
 .twitter-image,
 .facebook-image,
 .google-image {
-    background: #7477BF; 
+    background: #7477BF;
     padding: 10px;
     border-radius: 50%;
     width: 40px;
@@ -288,7 +297,7 @@ ul li {
     font-weight: 100;
     color: rgb(47, 56, 56);
     padding: 10px 0 0 0;
-} 
+}
 
 
 /* inside of row 5 */
@@ -301,7 +310,7 @@ ul li {
 }
 
 .members-image {
-    padding: 5px; 
+    padding: 5px;
 }
 
 .profile-image {
@@ -323,10 +332,10 @@ ul li {
     text-decoration: none;
     display: block;
 }
- 
+
 /* recent activity */
 
- .activity-2 {
+.activity-2 {
     font-family: arial, san-serif;
     font-size: 14px;
 }
@@ -352,7 +361,7 @@ ul li {
 }
 
 /* message section*/
- .widget-container {
+.widget-container {
     padding: 0 10px;
 }
 
@@ -376,21 +385,21 @@ ul li {
 
 /* settings section */
 
- .switch-light,
+.switch-light,
 .switch-ios {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     display: flex;
 }
 
-strong { 
+strong {
     margin: 10px 0 25px 10px;
     width: 50%;
 }
 
 .settings-button {
     text-align: center;
-} 
+}
 
 .settings-button button {
     color: black;
@@ -415,4 +424,4 @@ strong {
 
 .center {
     text-align: center;
-} 
+}

@@ -35,7 +35,7 @@
  .half-size-charts,
  .member-info,
  .message-and-settings {
-     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     grid-template-columns: 1fr;
  }
 
  .widget-container-full,
@@ -46,15 +46,21 @@
 
  @media (min-width: 768px) {
      .grid-container {
-         grid-template-rows: 70px 60px 1fr; 
-     } 
-     
+         grid-template-rows: 70px 60px 1fr;
+     }
+
      .widget-container-full {
-         width: 90vw; 
+         width: 90vw;
      }
 
      .widget-container-half {
          width: 45vw;
+     }
+
+     .half-size-charts,
+     .member-info,
+     .message-and-settings {
+         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
      }
  }
 
